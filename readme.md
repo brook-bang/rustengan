@@ -33,10 +33,6 @@
 
 ### 依赖
 - **Rust**: 安装最新稳定版（推荐通过 [rustup](https://rustup.rs/)）。
-- **Maelstrom**: 用于测试分布式系统。
-  - 下载最新版本：[Maelstrom Releases](https://github.com/jepsen-io/maelstrom/releases)。
-  - 解压到本地目录，例如 `/mnt/data/maelstrom`。
-  - 确保 Java 已安装（`java -version`）。
 - **Cargo 依赖**: 项目使用以下库（已在 `Cargo.toml` 中配置）：
   - `anyhow`: 错误处理。
   - `serde`: JSON 序列化/反序列化。
